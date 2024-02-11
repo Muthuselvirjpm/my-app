@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+  font-family: robo-bld;
+  src: url(font/Roboto-Bold.ttf);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: robo-blk;
+  src: url(font/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: robo-reg;
+  src: url(font/Roboto-Regular.ttf);
+}
+.userheading{
+  font-family: robo-bld;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+}
+.userdetails{
+  padding-bottom: 50px;
+}
+.avatardiv{
+  width: 100px;
+}
+.avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+.userlogin{
+  font-family: robo-blk;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.useravatar{
+  width: 220px;
+  height: 220px;
+   margin: 0px 51px;
+}
+.userdetailsdiv{
+  font-family: robo-reg;
+  font-size: 27px;
+  padding: 51px;
 }
